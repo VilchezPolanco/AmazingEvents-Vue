@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout{
+    min-height: 100vh !important;
+}
+.logo{
+    width: 70px !important;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover;
+    object-position: center 60%;
+}
+.contenedor-carousel{
+    position: relative !important;
+}
+.contenedor-carousel h2{
+    font-size: 4rem;
+}
+.vh10{
+    height: 10vh !important;
+}
+.footer-logo{
+    width: 40px;
+}
+.detalle{
+    border: 2px solid black;
+}
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th , td{
+    width: 35rem;
+    height: 2rem;
+}
